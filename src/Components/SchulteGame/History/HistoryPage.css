@@ -1,0 +1,29 @@
+@media (max-width: 500px) {
+  .history-page {
+    padding: 20px;
+  }
+  .total-history {
+    height: 450px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
+  .game-history {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .clear-history-button {
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #73ad53;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .clear-history-button:hover {
+    background-color: #68e752;
+  }
+}

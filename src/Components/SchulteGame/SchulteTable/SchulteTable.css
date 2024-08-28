@@ -1,0 +1,88 @@
+@media (max-width: 500px) {
+  .navbar {
+    background-color: aquamarine;
+    padding: 12px;
+  }
+  .btns {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+  }
+  .active {
+    background-color: cornsilk;
+  }
+
+  .start {
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
+  .next-number {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .reverse-timer {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .points {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 90px;
+  }
+
+  .grid {
+    display: grid;
+    gap: 5px;
+    margin: 30px 10px 10px 10px;
+  }
+
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #ddd;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .game-over {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .start-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .game-start {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+  }
+  .current-level {
+    font-size: 15px;
+    margin-bottom: 10px;
+    float: inline-start;
+  }
+  .end-game-button {
+    float: inline-end;
+    cursor: pointer;
+  }
+
+  .symbol-find {
+    text-align: center;
+  }
+}
